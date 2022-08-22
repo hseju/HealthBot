@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-Name",
+      "2": "I-Name",
+      "3": "L-Name",
+      "4": "U-Name",
+      "5": "B-age",
+      "6": "I-age",
+      "7": "L-age",
+      "8": "U-age",
+      "9": "B-disease",
+      "10": "I-disease",
+      "11": "L-disease",
+      "12": "U-disease",
+      "13": "B-medication",
+      "14": "I-medication",
+      "15": "L-medication",
+      "16": "U-medication",
+      "17": "B-symptoms",
+      "18": "I-symptoms",
+      "19": "L-symptoms",
+      "20": "U-symptoms",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-Name": 1,
+      "I-Name": 2,
+      "L-Name": 3,
+      "U-Name": 4,
+      "B-age": 5,
+      "I-age": 6,
+      "L-age": 7,
+      "U-age": 8,
+      "B-disease": 9,
+      "I-disease": 10,
+      "L-disease": 11,
+      "U-disease": 12,
+      "B-medication": 13,
+      "I-medication": 14,
+      "L-medication": 15,
+      "U-medication": 16,
+      "B-symptoms": 17,
+      "I-symptoms": 18,
+      "L-symptoms": 19,
+      "U-symptoms": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

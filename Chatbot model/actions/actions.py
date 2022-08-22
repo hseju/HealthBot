@@ -21,10 +21,10 @@ import requests
 import io
 
 #github repository where csv data is located
-url = "https://raw.githubusercontent.com/OmdenaAI/hyderabad-india-chapter-patients-chatbot/main/src/data/raw_data/MediBot.csv?token=GHSAT0AAAAAABT3D53SN4L3I6HWZH5M73Q6YUSPO3Q"
-d = requests.get(url).content
+#url = "https://raw.githubusercontent.com/OmdenaAI/hyderabad-india-chapter-patients-chatbot/main/src/data/raw_data/MediBot.csv?token=GHSAT0AAAAAABT3D53SN4L3I6HWZH5M73Q6YUSPO3Q"
+#d = requests.get(url).content
 #df = pd.read_csv(io.StringIO(d.decode('utf-8')))
-df= pd.read_csv(r"C:/Everything On This PC/Udacity/Chatbot Omdena Hyderabad/MediBot.csv", encoding='utf-8')
+df= pd.read_csv(r"MediBot.csv", encoding='cp1252')
 
 class ActionSymptoms(Action):
 
